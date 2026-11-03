@@ -5,7 +5,8 @@ from pydantic import BaseModel, Field
 
 load_dotenv()
 
-model = ChatOpenAI()
+model = ChatGroq()
+
 
 # schema
 class Review(BaseModel):
